@@ -63,8 +63,6 @@ AVATAR INFO
 
 .chat-screen {
     background-color: yellow;
-    overflow-y: scroll;
-    flex-grow: 1;
 }
 
 

@@ -9,3 +9,8 @@ DISPLAY
 .flex-column {
     flex-direction: column;
 }
+
+.overflow-grow {
+    overflow-y: scroll;
+    flex-grow: 1;
+}
