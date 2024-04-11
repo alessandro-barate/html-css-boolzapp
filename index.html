@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-small d-flex flex-column">
-                <div class="profile d-flex">
+                <div class="profile d-flex bg-white">
                     <img src="./img/avatar_8.jpg" alt="My avatar">
                     <div class="options">
                         <i class="fas fa-circle-notch"></i>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 
-                <div class="profile d-flex">
+                <div class="profile d-flex bg-lightblue">
                     <img src="./img/avatar_8.jpg" alt="My avatar">
                     <div class="name-access">
                         <span class="name">Alessandro</span>
@@ -31,7 +31,10 @@
                     </div>
                 </div>
 
-                <div class="search-chat">
+                <div class="search-chat bg-white d-flex align-center">
+                    <div class="bg-white">
+                        <i class="fas fa-magnifying-glass"></i>
+                    </div>
                     <input type="text" placeholder="Cerca o inizia una nuova chat">
                 </div>
 
@@ -111,7 +114,7 @@
 
 
             <div class="col-big d-flex flex-column">
-                <div class="profile d-flex">
+                <div class="profile d-flex bg-white">
                     <div class="profile-details d-flex">
                         <img src="./img/avatar_8.jpg" alt="My avatar">
                         <div class="name-access">
@@ -127,24 +130,26 @@
                 </div>
 
                 <div class="chat-screen overflow-grow">
-                    <div>
-                        1
-                    </div>
-                        2
-                    <div>
-
+                    <div class="chat-container">
+                        <div class="chat-box">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatum. Eos, animi. Aperiam dolorum ea quidem vitae ipsum, odit tempora nemo assumenda impedit aliquam sit eius dignissimos consectetur perspiciatis eligendi?</p>                        
+                        </div>
+                        
+                        <div class="chat-box">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam doloremque dignissimos facere, corporis temporibus minima, perferendis delectus quae dolores eius adipisci harum optio eum laborum neque. Deserunt, in est! Eos.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="text-box d-flex">
-                    <div>
-                        <button>
-                            <i class="fas fa-face-smile"></i>
+                <div class="text-box d-flex bg-white">
+                    <div class="text-center d-flex align-center justify-center">
+                        <button id="reverse-color">
+                            <i class="far fa-face-smile"></i>
                         </button>
                     </div>
                     <div>
-                        <input type="text">
+                        <input type="text" placeholder="Scrivi un messaggio">
                     </div>
-                    <div>
+                    <div class="text-center d-flex align-center justify-center">
                         <button>
                             <i class="fas fa-microphone-lines"></i>
                         </button>

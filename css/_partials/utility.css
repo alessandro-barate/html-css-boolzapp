@@ -14,3 +14,33 @@ DISPLAY
     overflow-y: scroll;
     flex-grow: 1;
 }
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+
+
+button {
+    border: none;
+}
+
+
+
+
+.bg-white {
+    background-color: #EAEAEA;
+}
+
+.bg-lightblue {
+    background-color: #8FDAFC;
+}
