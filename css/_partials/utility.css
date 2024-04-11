@@ -10,6 +10,10 @@ DISPLAY
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .overflow-grow {
     overflow-y: scroll;
     flex-grow: 1;
@@ -27,6 +31,9 @@ DISPLAY
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: end;
+}
 
 
 

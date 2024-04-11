@@ -31,6 +31,10 @@ body {
     height: 100%;
 }
 
+.profile i {
+    color: #B1B1B1;
+}
+
 
 /***********************
 AVATAR INFO
@@ -49,13 +53,20 @@ AVATAR INFO
     margin: 10px 0 10px 15px;
 }
 
+
+
 .name-access span {
     display: block;
 }
 
 .options {
-    width: 50%;
+    width: 20%;
     text-align: end;
+    padding-right: 5px;
+}
+
+.options i {
+    padding: 7px;
 }
 
 
