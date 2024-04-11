@@ -1,0 +1,58 @@
+/***********************
+CONTAINERS
+***********************/
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(218, 219, 211);
+    
+}
+
+.container {
+    width: 80%;
+    height: 90%;
+    background-color: red;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-small {
+    width: 30%;
+    background-color: blue;
+}
+
+.col-big {
+    width: 70%;
+    background-color: green;
+}
+
+
+/***********************
+AVATAR INFO
+***********************/
+
+.profile {
+    justify-content: space-between;
+}
+
+.profile img {
+    display: block;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 0 10px 15px;
+}
+
+.name-access span {
+    display: block;
+}
+
+.options {
+    width: 50%;
+    text-align: end;
+}
