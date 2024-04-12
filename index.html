@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-small d-flex flex-column">
+            <div class="col-small">
                 <div class="profile d-flex bg-white justify-between">
                     <img src="./img/avatar_8.jpg" alt="My avatar">
                     <div class="options d-flex align-center justify-end">
@@ -28,19 +28,19 @@
                         <i class="fas fa-bell-slash"></i>
                     </div>
                     <div class="name-access">
-                        <span class="name font-size-big">Ricevi notifiche di nuovi messaggi</span>
+                        <span id="receive" class="name font-size-big">Ricevi notifiche di nuovi messaggi</span>
                         <span class="access font-size-medium"><a href="">Attiva notifiche desktop</a></span>
                     </div>
                 </div>
 
-                <div class="search-chat d-flex align-center">
-                    <div class="d-flex align-center">
+                <div class="search-chat">
+                    <div>
                         <i class="fas fa-magnifying-glass"></i>
                     </div>
                     <input type="text" placeholder="Cerca o inizia una nuova chat">
                 </div>
 
-                <div class="chat-list overflow-grow">
+                <div class="chat-list">
                     <div class="profile d-flex">
                         <img src="./img/avatar_6.jpg" alt="My avatar">
                         <div class="name-access">
@@ -133,12 +133,18 @@
 
                 <div class="chat-screen overflow-grow">
                     <div class="chat-container">
-                        <div class="chat-box">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatum. Eos, animi. Aperiam dolorum ea quidem vitae ipsum, odit tempora nemo assumenda impedit aliquam sit eius dignissimos consectetur perspiciatis eligendi?</p>                        
+                        <div class="message-1">
+                            <div class="d-flex justify-end">
+                                <p class="chat-content width-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime ratione explicabo dolore nisi temporibus assumenda sunt vero suscipit, nostrum placeat voluptas amet voluptate ullam, repudiandae accusantium illum architecto tempora.</p>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="d-flex justify-end">
+                                <span>16:43</span>
+                            </div>
                         </div>
-                        
-                        <div class="chat-box">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam doloremque dignissimos facere, corporis temporibus minima, perferendis delectus quae dolores eius adipisci harum optio eum laborum neque. Deserunt, in est! Eos.</p>
+                        <div class="message-2 d-flex">
+                            <p class="chat-content width-60">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ipsam animi voluptas quam beatae illo id magni? Dolore incidunt, ipsum ad possimus voluptatibus aperiam consequatur aliquid molestias alias, molestiae consequuntur!</p>
+                            <i class="fas fa-chevron-down"></i>
                         </div>
                     </div>
                 </div>

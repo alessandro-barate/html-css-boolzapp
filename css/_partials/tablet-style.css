@@ -1,16 +1,23 @@
 @media screen and (min-width: 568px) {
-    
+
     .col-small {
-        display: block;
+        display: flex;
         width: 80px;
         background-color: #FFFFFF;
         border-right: 1px solid rgb(214, 214, 214);
         flex-shrink: 0;
         overflow: hidden;
+        flex-direction: column;
     }
  
     .profile.d-flex img {
         display: block;
+    }
+
+    .chat-list {
+        display: block;
+        overflow-y: scroll;
+        flex-grow: 1;
     }
 
     .col-big .options {
