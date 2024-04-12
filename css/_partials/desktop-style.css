@@ -1,5 +1,10 @@
 @media screen and (min-width: 992px) {
 
+    .body {
+        background-color: rgb(218, 219, 211);
+        background: linear-gradient(#019588 20%, #D9DAD4 80%);
+    }
+
     .container {
         max-width: 1200px;
     }
