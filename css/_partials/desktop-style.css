@@ -1,4 +1,9 @@
 @media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
     .col-small {
         display: block;
         background-color: #FFFFFF;
@@ -54,6 +59,11 @@
     .chat-list .profile {
         border-bottom: 1px solid rgb(214, 214, 214);
         align-items: center;
+    }
+
+    .profile i {
+        display: block;
+        color: #B1B1B1;
     }
 
     .text-box {
