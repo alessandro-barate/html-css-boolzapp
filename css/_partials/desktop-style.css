@@ -9,14 +9,20 @@
         max-width: 1200px;
     }
 
-    #receive {
+    #receive,
+    .search-chat input,
+    .chat-list .name-access,
+    .profile i,
+    .text-box div:first-child,
+    .text-box div:last-child {
         display: block;
     }
 
     .col-small,
     .search-chat,
     #notification,
-    .col-small .options {
+    .col-small .options,
+    .text-box {
         display: flex;
     }
 
@@ -63,8 +69,7 @@
         padding-left: 15px; 
     }
     
-    .search-chat input {
-        display: block;
+    .search-chat input {  
         width: 93%;
         border: none;
         padding-left: 20px;
@@ -75,7 +80,6 @@
     }
 
     .chat-list {
-        display: block;
         overflow-y: scroll;
         flex-grow: 1;
     }
@@ -90,19 +94,16 @@
     }
 
     .profile i {
-        display: block;
         color: #B1B1B1;
     }
 
     .text-box {
-        display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .text-box div:first-child,
     .text-box div:last-child {
-        display: block;
         width: 10%;
     }
 

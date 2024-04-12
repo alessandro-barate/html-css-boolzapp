@@ -15,7 +15,6 @@
     }
 
     .chat-list {
-        display: block;
         overflow-y: scroll;
         flex-grow: 1;
     }
