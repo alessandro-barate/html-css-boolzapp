@@ -1,19 +1,41 @@
 @media screen and (min-width: 568px) {
 
+    /***********************
+    CONTAINERS
+    ***********************/
+
     .col-small {
         display: flex;
-        width: 80px;
+        width: 90px;
         background-color: #FFFFFF;
         border-right: 1px solid rgb(214, 214, 214);
         flex-shrink: 0;
         overflow: hidden;
         flex-direction: column;
     }
- 
+
+
+    /***********************
+    DISPLAY
+    ***********************/
+
     .profile.d-flex img {
         display: block;
     }
 
+    .col-small .options,
+    #notification,
+    .name.font-size-big,
+    .search-chat,
+    .chat-list .name-access {
+        display: none;
+    }
+
+
+    /***********************
+    AVATAR INFO
+    ***********************/
+ 
     .chat-list {
         overflow-y: scroll;
         flex-grow: 1;
@@ -35,13 +57,10 @@
         color: #B1B1B1;
     }
 
-    .col-small .options,
-    #notification,
-    .name.font-size-big,
-    .search-chat,
-    .chat-list .name-access {
-        display: none;
-    }
+
+    /*****************************
+    SEZIONE SCRIVI UN MESSAGGIO
+    *****************************/
 
     .text-box {
         display: flex;

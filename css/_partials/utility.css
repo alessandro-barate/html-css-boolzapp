@@ -1,4 +1,13 @@
 /********************
+ELEMENTS
+********************/
+
+button {
+    border: none;
+}
+
+
+/********************
 DISPLAY
 ********************/
 
@@ -18,6 +27,11 @@ DISPLAY
     overflow-y: scroll;
     flex-grow: 1;
 }
+
+
+/********************
+ALIGNMENT
+********************/
 
 .align-center {
     align-items: center;
@@ -39,10 +53,24 @@ DISPLAY
     justify-content: end;
 }
 
+
+/********************
+SPACING
+********************/
+
 .padding-tb {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.width-60 {
+    width: 60%;
+}
+
+
+/********************
+FONT
+********************/
 
 .font-size-big {
     font-size: 14px;
@@ -57,17 +85,9 @@ DISPLAY
 }
 
 
-button {
-    border: none;
-}
-
-
-.width-60 {
-    width: 60%;
-}
-
-
-
+/********************
+BACKGROUND COLORS
+********************/
 
 .bg-white {
     background-color: #EAEAEA;

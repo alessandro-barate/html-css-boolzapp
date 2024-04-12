@@ -5,10 +5,33 @@
         background: linear-gradient(0deg, #D9DBD4 80%, #019588 20%);
     }
 
+
+    /***********************
+    CONTAINERS
+    ***********************/
+
     .container {
         max-width: 1050px;
         height: 90%;
     }
+
+    .col-big {
+        width: 70%;
+    }
+
+    .col-small {
+        width: 30%;
+        background-color: #FFFFFF;
+        border-right: 1px solid rgb(214, 214, 214);
+        flex-shrink: 0;
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+
+    /***********************
+    DISPLAY
+    ***********************/
 
     #receive,
     .search-chat input,
@@ -27,18 +50,19 @@
         display: flex;
     }
 
-    .col-big {
-        width: 70%;
+
+    /***********************
+    AVATAR INFO
+    ***********************/
+
+    .profile i {
+        color: #B1B1B1;
     }
 
-    .col-small {
-        width: 30%;
-        background-color: #FFFFFF;
-        border-right: 1px solid rgb(214, 214, 214);
-        flex-shrink: 0;
-        overflow: hidden;
-        flex-direction: column;
-    }
+
+    /***********************
+    RICERCA ED ELENCO CHAT 
+    ***********************/
 
     #snooze {
         width: 35px;
@@ -94,9 +118,10 @@
         align-items: center;
     }
 
-    .profile i {
-        color: #B1B1B1;
-    }
+
+    /*****************************
+    SEZIONE SCRIVI UN MESSAGGIO
+    *****************************/
 
     .text-box {
         justify-content: center;
@@ -116,6 +141,4 @@
         font-size: 20px;
         color: #6B7376;
     }
-
-    
 }
