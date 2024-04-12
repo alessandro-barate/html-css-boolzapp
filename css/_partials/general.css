@@ -98,13 +98,24 @@ SEZIONE CHAT
 }
 
 .chat-content {
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .message-1 {
-    background-color: #D4F9BB;
     padding: 10px 10px 10px 0;
     border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.message-2 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.message-1 div:first-child,
+.message-2 div:first-child {
+    margin-bottom: 10px;
 }
 
 
