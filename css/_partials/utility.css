@@ -4,6 +4,7 @@ ELEMENTS
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 
