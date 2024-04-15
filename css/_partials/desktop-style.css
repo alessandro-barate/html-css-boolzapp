@@ -87,6 +87,10 @@
         padding-bottom: 5px;
         background-color: #FAFAFA;
     }
+
+    .search-chat i {
+        color: #B1B1B1;
+    }
     
     .search-chat div:first-child {
         background-color: #ffffff;
